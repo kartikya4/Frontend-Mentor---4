@@ -40,7 +40,7 @@ p{
     color:hsl(201, 11%, 66%);
 }
 
-#download{
+.download{
     text-align: center;
     margin:50px;
 }
