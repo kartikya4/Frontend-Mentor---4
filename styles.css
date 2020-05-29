@@ -1,0 +1,173 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:18px;
+    margin:0;
+    max-width:1440px;
+}
+
+#header{
+    background-image: url(images/bg-header-desktop.png);
+    text-align:center;
+}
+
+.logo{
+    margin:50px auto 30px auto;
+}
+
+h1{
+    color:hsl(210, 10%, 33%);
+    font-weight:600;
+}
+
+h2{
+    text-align:center;
+    font-weight:bold;
+    color:hsl(210, 10%, 33%);
+}
+
+h3,h4{
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+}
+
+p{
+    color:hsl(201, 11%, 66%);
+}
+
+.sub-heading{
+    width:49%;
+    margin:auto;
+    color:hsl(201, 11%, 66%);
+}
+
+#download{
+    text-align: center;
+    margin:50px;
+}
+
+.button1{
+    margin:30px;
+    background-color: hsl(171, 66%, 44%);
+    color:white;
+    border-radius: 40px;
+    padding:15px 40px;
+}
+
+.button2{
+    margin:30px;
+    background-color: hsl(233, 100%, 69%);
+    color:white;
+    border-radius:40px;
+    padding:15px 40px;
+}
+
+.descrip{
+    width:52%;
+    margin:auto;
+    color:hsl(201, 11%, 66%);
+    text-align:center;
+}
+
+.row{
+    padding:5% 10%;
+}
+
+.comp-img{
+    width:130%;
+    position:relative;
+    right:250px;
+}
+
+.col-fea{
+    margin-top:50px;
+    color:hsl(210, 10%, 33%);
+}
+
+.edit{
+    text-align:center;
+    margin-top:70px;
+    margin-bottom:50px;
+}
+
+.image{
+    width:50px;
+    padding-bottom:50px;
+}
+
+.icon{
+    text-align:center;
+    line-height:2;
+}
+
+#press{
+    text-align:center;
+    padding-bottom:3%;  
+}
+
+.press-image{
+    width:70%;
+    margin:20px 20px 20px 50px;
+}
+
+#body-2{
+    text-align:center;
+    width:50%;
+    margin:auto;
+    margin-top:100px;
+}
+
+#footer{
+    background-color: #f7f7f7;
+    text-align:center;
+}
+
+.social-img{
+    margin:10px;
+}
+
+.image-logo{
+    width:50%;
+}
+
+.developer{
+    margin-top:20px;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#004755;
+}
+
+.comp-mob{
+    margin:auto;
+    display:block;   
+}
+
+@media (max-width:375px){
+
+    #header{
+        background-image: url(images/bg-header-mobile.png);
+        text-align: center;
+    }
+
+    .image-logo{
+        width:25%;
+        margin-bottom:20px;
+    }
+
+    .comp-mob{
+        margin:auto;
+        width:100%;
+    }
+
+    .comp-img{
+        width:100%;
+        position:relative;
+        left:0px;
+    }
+}
